@@ -1,8 +1,40 @@
 # checkio
 Решаю задачи на checkio
 
-8. "Fizz buzz" is a word game we will use to teach the robots about division. Let's learn computers.
+1. This is an intro mission, the purpose of which is to explain how to solve missions on CheckiO. If you want to know how to get the maximum out of using CheckiO, check out our blog post "From Basic to Advance usage".
+This mission is the easiest one. Write a function that will receive 2 numbers as input and it should return the multiplication of these 2 numbers.
+Input: Two arguments. Both are of type int.
 
+2. You are at the beginning of a password series. Every mission is based on the previous one. The missions that follow will become slightly more complex.
+In this mission, you need to create a password verification function.
+The verification condition is:
+the length should be bigger than 6.
+Input: A string (str).
+Output: A logic value (bool).
+
+3. Check if the given number is even or not. Your function should return True if the number is even, and False if the number is odd.
+Input: An integer (int).
+Output: Logic value (bool).
+
+4. You should return a given string in reverse order.
+Input: A string (str).
+Output: A string (str).
+
+5. You should write a function that will receive a positive integer and return: "Fizz" if the number is divisible by 3 (3, 6, 9 ...) otherwise convert the given number to a string (2 -> "2").
+Input: An integer (int).
+Output: A string (str).
+
+6. You are given a string and you have to find its first word.
+The input string consists of only English letters and spaces.
+There aren’t any spaces at the beginning and the end of the string.
+Input: A string (str).
+
+Output: A string (str).
+7. You have a non-negative integer. Try to find out how many digits it has.
+Input: A non-negative integer (int).
+Output: An integer (int)
+
+8. "Fizz buzz" is a word game we will use to teach the robots about division. Let's learn computers.
 You should write a function that will receive a positive integer and return:
 "Fizz Buzz" if the number is divisible by 3 and by 5;
 "Fizz" if the number is divisible by 3;
