@@ -41,5 +41,11 @@ You should write a function that will receive a positive integer and return:
 "Buzz" if the number is divisible by 5;
 The number as a string for other cases.
 Input: An integer (int).
-
 Output: A string (str).
+
+9. In this mission you need to create a password verification function.
+The verification conditions are:
+the length should be bigger than 6;
+should contain at least one digit.
+Input: A string (str).
+Output: A logic value (bool).
