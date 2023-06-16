@@ -1,10 +1,21 @@
 # Taken from mission Just Fizz!
 
 def checkio(num: int) -> str:
-    if num % 3 == 0:
+    # if num % 15 == 0:
+    #     return 'Fizz Buzz'
+    # if num % 5 == 0:
+    #     return 'Buzz'
+    # if num % 3 == 0:
+    #     return 'Fizz'
+    # return str(number)
+    if num % 3 == 0 and num % 5 == 0:
+        return "Fizz Buzz"
+    elif num % 3 == 0:
         return "Fizz"
+    elif num % 5 == 0:
+        return "Buzz"
     else:
-        return f"{num}"
+        return str(num)
 
 
 print("Example:")
