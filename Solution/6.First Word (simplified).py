@@ -2,7 +2,7 @@ def first_word(text: str) -> str:
     # return text.split(' ')[0]
     # first_word = lambda s: s.split()[0]
     index = text.find(" ")
-    return text[:index] if index != -1 else text #Самое быстрое решение
+    return text[:index] if index != -1 else text  # Самое быстрое решение
 
 
 print("Example:")
