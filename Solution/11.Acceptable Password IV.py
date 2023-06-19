@@ -1,5 +1,8 @@
 def is_acceptable_password(password: str) -> bool:
     return (len(password) > 6 and not password.isdigit() and not password.isalpha()) or len(password) > 9
+
+    # is_acceptable_password = lambda p: 0 < sum(c.isdigit() for c in p) < len(p) > 6 or len(p) > 9
+
     # if 6 < len(password) < 9 and any(i.isdigit() for i in password) and not all(i.isdigit() for i in password):
     #     return True
     # elif len(password) > 9:
