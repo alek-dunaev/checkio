@@ -1,7 +1,16 @@
 # Taken from mission Acceptable Password I
 
 def is_acceptable_password(password: str) -> bool:
-    if password.__len__() > 6:
+    # return len(password) > 6 and any(i.isdigit() for i in password)
+    result = False
+    for i in password:
+        if i.isdigit():
+            result = True
+            break
+        else:
+            result = False
+
+    if len(password) > 6 and result:
         return True
     else:
         return False
