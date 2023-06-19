@@ -62,3 +62,11 @@ the length should be bigger than 6;
 should contain at least one digit, but cannot consist of just digits.
 Input: A string (str).
 Output: A logic value (bool).
+
+11. In this mission you need to create a password verification function.
+The verification conditions are:
+the length should be bigger than 6;
+should contain at least one digit, but it cannot consist of just digits;
+if the password is longer than 9 - previous rule (about one digit), is not required.
+Input: A string (str).
+Output: A logic value (bool).
