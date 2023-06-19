@@ -1,8 +1,8 @@
 
 
-# def is_acceptable_password(password: str) -> bool:
-#     return len(password) > 6 and any(i.isdigit() for i in password) and not password.isdigit()
-is_acceptable_password = lambda p: 0 < sum(c.isdigit() for c in p) < len(p) > 6
+def is_acceptable_password(password: str) -> bool:
+    return len(password) > 6 and any(i.isdigit() for i in password) and not password.isdigit()
+# is_acceptable_password = lambda p: 0 < sum(c.isdigit() for c in p) < len(p) > 6
 
 print("Example:")
 print(is_acceptable_password("short"))
