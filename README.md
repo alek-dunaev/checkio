@@ -3,7 +3,7 @@
 
 Example_1. Дана строка, необходимо посчитать количество слов в строке.
 
-Example_2.Дана строка, необходимо «перевернуть» все слова в строке,
+Example_2. Дана строка, необходимо «перевернуть» все слова в строке,
 записав их «задом наперёд». Порядок слов должен остаться прежним,
 знаки препинания (точка, запятая, восклицательный знак) тоже должны остаться на своих местах.
 
@@ -53,5 +53,12 @@ Output: A string (str).
 The verification conditions are:
 the length should be bigger than 6;
 should contain at least one digit.
+Input: A string (str).
+Output: A logic value (bool).
+
+10. In this mission you need to create a password verification function.
+The verification conditions are:
+the length should be bigger than 6;
+should contain at least one digit, but cannot consist of just digits.
 Input: A string (str).
 Output: A logic value (bool).
