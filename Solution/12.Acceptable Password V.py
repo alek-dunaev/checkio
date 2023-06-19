@@ -14,6 +14,7 @@ def is_acceptable_password(password: str) -> bool:
     else:
         return False
 
+# return (len(password) > 6 and any(char.isdigit() for char in password) and not password.isnumeric())
 
 # def is_acceptable_password(password: str) -> bool:
 #     # C1 : the length should be bigger than 6;
