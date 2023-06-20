@@ -87,3 +87,8 @@ Output: A logic value (bool).
 15. You have a number and you need to determine which digit in this number is the biggest.
 Input: A positive integer (int).
 Output: An integer 0-9 (int). 
+
+16. In a given text you need to sum the numbers while excluding any digits that form part of a word.
+The text consists of numbers, spaces and letters from the English alphabet.
+Input: A string (str).
+Output: An integer (int).
