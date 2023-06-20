@@ -7,6 +7,7 @@ def max_digit(value: int) -> int:
 
     # return max(map(int, str(number)))
 
+
 # max_digit = lambda number: int(max(str(number)))
 
 
@@ -21,4 +22,3 @@ assert max_digit(1) == 1
 assert max_digit(10000) == 1
 
 print("The mission is done! Click 'Check Solution' to earn rewards!")
-
