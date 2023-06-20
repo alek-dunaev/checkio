@@ -83,3 +83,7 @@ Output: A string (str).
 If one of the symbols is not in the given word - your function should return False. If two seeking symbols are the same - your function should return False.
 Input: Three arguments. The first one is a given string (str), second is a symbol (str) that should go first, and the third is a symbol (str) that should go after the first one.
 Output: A logic value (bool).
+
+15. You have a number and you need to determine which digit in this number is the biggest.
+Input: A positive integer (int).
+Output: An integer 0-9 (int). 
