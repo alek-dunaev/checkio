@@ -78,3 +78,8 @@ The initial and final markers are always 1 char size.
 The initial and final markers always exist in a string and go one after another.
 Input: Three arguments. All of them are strings (str). The second and third arguments are the initial and final markers.
 Output: A string (str).
+
+14. In a given string you need to check if one symbol goes right after another. If so - return True, otherwise - False.
+If one of the symbols is not in the given word - your function should return False. If two seeking symbols are the same - your function should return False.
+Input: Three arguments. The first one is a given string (str), second is a symbol (str) that should go first, and the third is a symbol (str) that should go after the first one.
+Output: A logic value (bool).
