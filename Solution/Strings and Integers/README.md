@@ -1,12 +1,4 @@
 ﻿# checkio
-Решаю задачи на checkio
-
-Example_1. Дана строка, необходимо посчитать количество слов в строке.
-
-Example_2. Дана строка, необходимо «перевернуть» все слова в строке,
-записав их «задом наперёд». Порядок слов должен остаться прежним,
-знаки препинания (точка, запятая, восклицательный знак) тоже должны остаться на своих местах.
-
 1. This is an intro mission, the purpose of which is to explain how to solve missions on CheckiO. If you want to know how to get the maximum out of using CheckiO, check out our blog post "From Basic to Advance usage".
 This mission is the easiest one. Write a function that will receive 2 numbers as input and it should return the multiplication of these 2 numbers.
 Input: Two arguments. Both are of type int.
@@ -34,8 +26,8 @@ Output: A string (str).
 The input string consists of only English letters and spaces.
 There aren’t any spaces at the beginning and the end of the string.
 Input: A string (str).
-
 Output: A string (str).
+
 7. You have a non-negative integer. Try to find out how many digits it has.
 Input: A non-negative integer (int).
 Output: An integer (int)
@@ -71,7 +63,7 @@ if the password is longer than 9 - previous rule (about one digit), is not requi
 Input: A string (str).
 Output: A logic value (bool).
 
-12.In this mission you need to create a password verification function.
+12. In this mission you need to create a password verification function.
 The verification conditions are:
 the length should be bigger than 6;
 should contain at least one digit, but it cannot consist of just digits;
