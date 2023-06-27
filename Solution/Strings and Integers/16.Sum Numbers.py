@@ -1,6 +1,11 @@
 def sum_numbers(text: str) -> int:
-    # your code here
-    return 0
+    result = 0
+    for i in text.split(' '):
+        if i.isdigit():
+            result += int(i)
+    return result
+
+# sum_numbers = lambda text: sum(int(word) for word in text.split() if word.isdigit())
 
 
 print("Example:")
