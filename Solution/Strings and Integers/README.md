@@ -97,3 +97,7 @@ Output: An integer (int).
 You are given a string with words and numbers separated by whitespaces (one space). The words contains only letters. You should check if the string contains three words in succession. For example, the string "start 5 one two three 7 end" contains three words in succession.
 Input: A string (str) with words.
 Output: Logic value (bool).
+
+18. You have a string that consist only of digits. You need to find how many zero digits ("0") are at the beginning of the given string.
+Input: A string (str), that consists of digits.
+Output: An integer (int). 
