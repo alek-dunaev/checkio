@@ -7,6 +7,20 @@ def sum_numbers(text: str) -> int:
 
 # sum_numbers = lambda text: sum(int(word) for word in text.split() if word.isdigit())
 
+# def sum_numbers(text: str) -> int:
+#     return sum(map(int, filter(str.isdigit, text.split())))
+
+# def sum_numbers(text: str) -> int:
+#     import numpy as np
+#     l = text.split(' ')
+#     n = np.array([])
+#     for i in l:
+#         try:
+#             n = np.append(n,int(i))
+#         except:
+#             p = 0
+#     return (int(n.sum()))
+
 
 print("Example:")
 print(sum_numbers("hi"))
