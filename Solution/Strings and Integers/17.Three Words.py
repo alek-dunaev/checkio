@@ -22,6 +22,21 @@ def checkio(words: str) -> bool:
 # def checkio(words):
 #     return True if re.search('\D+\s\D+\s\D+', words) else False
 
+# import numpy as np
+# import re
+#
+#
+# def checkio(words: str) -> bool:
+#     # find the index of words
+#     # use np.diff and re to check succession
+#     index_gap = np.diff([i for i, w in enumerate(words.split(' ')) if w.isalpha()])
+#
+#     index_str = ''.join([str(j) for j in index_gap])
+#
+#     pattern = re.compile(r'11')
+#
+#     return len(re.findall(pattern, index_str)) > 0
+
 
 print("Example:")
 print(checkio("Hello World hello"))
