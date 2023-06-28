@@ -1,0 +1,404 @@
+Description                ProcessId  
+
+System Idle Process        0          
+
+System                     4          
+
+Registry                   96         
+
+smss.exe                   376        
+
+csrss.exe                  592        
+
+wininit.exe                680        
+
+services.exe               752        
+
+lsass.exe                  772        
+
+svchost.exe                960        
+
+fontdrvhost.exe            988        
+
+svchost.exe                396        
+
+svchost.exe                596        
+
+svchost.exe                792        
+
+svchost.exe                1140       
+
+svchost.exe                1276       
+
+svchost.exe                1292       
+
+svchost.exe                1356       
+
+svchost.exe                1364       
+
+svchost.exe                1456       
+
+svchost.exe                1464       
+
+svchost.exe                1528       
+
+svchost.exe                1536       
+
+svchost.exe                1604       
+
+svchost.exe                1624       
+
+svchost.exe                1676       
+
+svchost.exe                1716       
+
+svchost.exe                1732       
+
+svchost.exe                1936       
+
+svchost.exe                1568       
+
+NVDisplay.Container.exe    2052       
+
+svchost.exe                2168       
+
+svchost.exe                2236       
+
+svchost.exe                2296       
+
+svchost.exe                2328       
+
+svchost.exe                2360       
+
+svchost.exe                2368       
+
+svchost.exe                2412       
+
+svchost.exe                2516       
+
+svchost.exe                2560       
+
+svchost.exe                2676       
+
+Memory Compression         2688       
+
+igfxCUIService.exe         2736       
+
+svchost.exe                2864       
+
+svchost.exe                2872       
+
+svchost.exe                2880       
+
+svchost.exe                3080       
+
+svchost.exe                3156       
+
+WmiPrvSE.exe               3292       
+
+svchost.exe                3392       
+
+svchost.exe                3404       
+
+svchost.exe                3424       
+
+svchost.exe                3520       
+
+svchost.exe                3608       
+
+svchost.exe                3672       
+
+spoolsv.exe                3728       
+
+svchost.exe                3792       
+
+svchost.exe                3800       
+
+AnyDesk.exe                3808       
+
+svchost.exe                3816       
+
+armsvc.exe                 3824       
+
+esif_uf.exe                3848       
+
+FNPLicensingService64.exe  3856       
+
+AGSService.exe             3876       
+
+AGMService.exe             3892       
+
+MacriumService.exe         3932       
+
+nvcontainer.exe            3940       
+
+svchost.exe                3968       
+
+RtkAudUService64.exe       4060       
+
+svchost.exe                4076       
+
+svchost.exe                2924       
+
+svchost.exe                3108       
+
+svchost.exe                3200       
+
+SurSvc.exe                 3308       
+
+SecurityHealthService.exe  3248       
+
+sqlwriter.exe              3776       
+
+XtuService.exe             4140       
+
+MsMpEng.exe                4220       
+
+TeamViewer_Service.exe     4240       
+
+sqlservr.exe               4268       
+
+svchost.exe                4292       
+
+svchost.exe                4308       
+
+svchost.exe                4680       
+
+dasHost.exe                4776       
+
+svchost.exe                4972       
+
+svchost.exe                4980       
+
+svchost.exe                5188       
+
+unsecapp.exe               5304       
+
+svchost.exe                5472       
+
+svchost.exe                5568       
+
+svchost.exe                5948       
+
+svchost.exe                7152       
+
+NisSrv.exe                 2288       
+
+PresentationFontCache.exe  7644       
+
+svchost.exe                7992       
+
+svchost.exe                7472       
+
+svchost.exe                8320       
+
+SearchIndexer.exe          9388       
+
+svchost.exe                12020      
+
+dasHost.exe                9296       
+
+dasHost.exe                6260       
+
+svchost.exe                12272      
+
+svchost.exe                6364       
+
+jhi_service.exe            11708      
+
+ComService.exe             3440       
+
+LMS.exe                    9196       
+
+SgrmBroker.exe             12308      
+
+svchost.exe                12456      
+
+svchost.exe                12360      
+
+svchost.exe                12284      
+
+conhost.exe                4484       
+
+esrv.exe                   4380       
+
+svchost.exe                14164      
+
+OSPPSVC.EXE                14180      
+
+svchost.exe                804        
+
+svchost.exe                6968       
+
+svchost.exe                12876      
+
+svchost.exe                5732       
+
+svchost.exe                7228       
+
+csrss.exe                  7316       
+
+winlogon.exe               4564       
+
+fontdrvhost.exe            10920      
+
+dwm.exe                    11204      
+
+NVDisplay.Container.exe    13116      
+
+PrintIsolationHost.exe     13192      
+
+svchost.exe                9576       
+
+esrv_svc.exe               1436       
+
+nvcontainer.exe            10144      
+
+sihost.exe                 11136      
+
+svchost.exe                15132      
+
+svchost.exe                5992       
+
+MSIToastServer.exe         13444      
+
+taskhostw.exe              10684      
+
+explorer.exe               9400       
+
+ShellExperienceHost.exe    4316       
+
+SearchUI.exe               15284      
+
+RuntimeBroker.exe          12740      
+
+RuntimeBroker.exe          7572       
+
+RuntimeBroker.exe          8580       
+
+ReflectUI.exe              1988       
+
+ctfmon.exe                 11284      
+
+SkypeApp.exe               4164       
+
+NVIDIA Web Helper.exe      11004      
+
+conhost.exe                12688      
+
+ReflectMonitor.exe         12100      
+
+chrome.exe                 10604      
+
+chrome.exe                 10320      
+
+chrome.exe                 10000      
+
+chrome.exe                 11404      
+
+chrome.exe                 9128       
+
+chrome.exe                 9380       
+
+chrome.exe                 836        
+
+chrome.exe                 11100      
+
+chrome.exe                 1480       
+
+chrome.exe                 15204      
+
+MSASCuiL.exe               8964       
+
+SkypeBackgroundHost.exe    6020       
+
+RuntimeBroker.exe          1240       
+
+CNMFSUT6.EXE               240        
+
+RtkAudUService64.exe       7432       
+
+CMFNSS6.EXE                4892       
+
+punto.exe                  14592      
+
+CnTnrStsTask.exe           11864      
+
+CCXProcess.exe             14852      
+
+node.exe                   8084       
+
+ps64ldr.exe                14220      
+
+conhost.exe                8816       
+
+Lightshot.exe              8020       
+
+AdobeIPCBroker.exe         12264      
+
+chrome.exe                 5284       
+
+svchost.exe                7108       
+
+WUDFHost.exe               14016      
+
+svchost.exe                10244      
+
+dllhost.exe                5524       
+
+ApplicationFrameHost.exe   15236      
+
+chrome.exe                 8464       
+
+Microsoft.Photos.exe       11068      
+
+RuntimeBroker.exe          8444       
+
+audiodg.exe                11680      
+
+chrome.exe                 5680       
+
+chrome.exe                 5576       
+
+svchost.exe                4692       
+
+chrome.exe                 4700       
+
+chrome.exe                 5672       
+
+chrome.exe                 8428       
+
+chrome.exe                 6088       
+
+pycharm64.exe              7664       
+
+fsnotifier.exe             1124       
+
+conhost.exe                116        
+
+chrome.exe                 1612       
+
+Viber.exe                  3136       
+
+chrome.exe                 6320       
+
+chrome.exe                 11328      
+
+WmiPrvSE.exe               12940      
+
+svchost.exe                2212       
+
+svchost.exe                7348       
+
+python.exe                 10436      
+
+conhost.exe                11092      
+
+python.exe                 11956      
+
+cmd.exe                    14392      
+
+WMIC.exe                   7396       
+
+
+
