@@ -17,6 +17,9 @@ Output: A string (str).
 5. You should write a function that will receive a positive integer and return: "Fizz" if the number is divisible by 3 (3, 6, 9 ...) otherwise convert the given number to a string (2 -> "2").
 Input: An integer (int).
 Output: A string (str).
+5.5 This function should take two positive numbers (length and width) as inputs and return the perimeter of a rectangle.
+Input: Two integers (int).
+Output: Integer (int).
 6. You are given a string and you have to find its first word.
 The input string consists of only English letters and spaces.
 There aren’t any spaces at the beginning and the end of the string.
