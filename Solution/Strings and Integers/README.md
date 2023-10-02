@@ -36,6 +36,14 @@ You should write a function that will receive a positive integer and return:
 The number as a string for other cases.
 Input: An integer (int).
 Output: A string (str).
+8.5 This function should take a string without punctuation marks as an input and return the longest word in the string.
+If there are multiple words of the same length, return the first one that appears.
+Input: String (str).
+Output: String (str).
+8.5.5 This function should take a string as an input and return the count of vowels (a, e, i, o, u) in the string. 
+The function should be case-insensitive.
+Input: String (str).
+Output: Integer (int).
 9. In this mission you need to create a password verification function.
 The verification conditions are:
 the length should be bigger than 6;
