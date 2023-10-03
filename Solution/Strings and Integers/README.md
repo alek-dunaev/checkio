@@ -71,6 +71,10 @@ having numbers or containing just numbers does not apply to the password longer 
 a string should not contain the word "password" in any case.
 Input: A string (str).
 Output: A logic value (bool).
+12.5 Your function should take a string as an input and convert all the first letters of the words in the string
+to uppercase, making the string a title case (other letters must be in lowercase).
+Input: Original string (str).
+Output: Converted string (str).
 13. You are given a string and two markers (the initial one and final). You have to find a substring enclosed between these two markers. But there are a few important conditions.
 The initial and final markers are always different.
 The initial and final markers are always 1 char size.

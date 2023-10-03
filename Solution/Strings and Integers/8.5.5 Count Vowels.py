@@ -1,14 +1,16 @@
 def count_vowels(text: str) -> int:
     """This function should take a string as an input and return the count of vowels (a, e, i, o, u) in the string.
     The function should be case-insensitive."""
-    # your code here
-    text = text.lower()
-    count = 0
-    vowels = ["a", "e", "i", "o", "u"]
-    for letter in text:
-        if letter in vowels:
-            count += 1
-    return count
+    return sum(char in "aeiou" for char in text.lower())
+    #     if text:
+    #         return len(re.findall('[aeiou]', text.lower()))
+    # text = text.lower()
+    # count = 0
+    # vowels = ["a", "e", "i", "o", "u"]
+    # for letter in text:
+    #     if letter in vowels:
+    #         count += 1
+    # return count
 
 
 print("Example:")
