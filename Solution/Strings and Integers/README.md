@@ -75,6 +75,11 @@ Output: A logic value (bool).
 to uppercase, making the string a title case (other letters must be in lowercase).
 Input: Original string (str).
 Output: Converted string (str).
+12.5.5 This function should take three strings as input: the main text, the target substring, and the replacement
+substring. It should return a new string where all occurrences of the target substring within the main text are
+replaced with the replacement substring.
+Input: Three strings (str).
+Output: String (str).
 13. You are given a string and two markers (the initial one and final). You have to find a substring enclosed between these two markers. But there are a few important conditions.
 The initial and final markers are always different.
 The initial and final markers are always 1 char size.
