@@ -17,7 +17,7 @@ Output: A string (str).
 5. You should write a function that will receive a positive integer and return: "Fizz" if the number is divisible by 3 (3, 6, 9 ...) otherwise convert the given number to a string (2 -> "2").
 Input: An integer (int).
 Output: A string (str).
-5.5 This function should take two positive numbers (length and width) as inputs and return the perimeter of a rectangle.
+5.1 This function should take two positive numbers (length and width) as inputs and return the perimeter of a rectangle.
 Input: Two integers (int).
 Output: Integer (int).
 6. You are given a string and you have to find its first word.
@@ -36,11 +36,11 @@ You should write a function that will receive a positive integer and return:
 The number as a string for other cases.
 Input: An integer (int).
 Output: A string (str).
-8.5 This function should take a string without punctuation marks as an input and return the longest word in the string.
+8.1 This function should take a string without punctuation marks as an input and return the longest word in the string.
 If there are multiple words of the same length, return the first one that appears.
 Input: String (str).
 Output: String (str).
-8.5.5 This function should take a string as an input and return the count of vowels (a, e, i, o, u) in the string. 
+8.2 This function should take a string as an input and return the count of vowels (a, e, i, o, u) in the string. 
 The function should be case-insensitive.
 Input: String (str).
 Output: Integer (int).
@@ -71,15 +71,18 @@ having numbers or containing just numbers does not apply to the password longer 
 a string should not contain the word "password" in any case.
 Input: A string (str).
 Output: A logic value (bool).
-12.5 Your function should take a string as an input and convert all the first letters of the words in the string
+12.1 Your function should take a string as an input and convert all the first letters of the words in the string
 to uppercase, making the string a title case (other letters must be in lowercase).
 Input: Original string (str).
 Output: Converted string (str).
-12.5.5 This function should take three strings as input: the main text, the target substring, and the replacement
+12.2 This function should take three strings as input: the main text, the target substring, and the replacement
 substring. It should return a new string where all occurrences of the target substring within the main text are
 replaced with the replacement substring.
 Input: Three strings (str).
 Output: String (str).
+12.3 Given a string, find the length of the longest substring without repeating characters.
+Input: String (str).
+Output: Integer (int).
 13. You are given a string and two markers (the initial one and final). You have to find a substring enclosed between these two markers. But there are a few important conditions.
 The initial and final markers are always different.
 The initial and final markers are always 1 char size.
