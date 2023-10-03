@@ -2,7 +2,7 @@ def count_occurrences(main_str: str, sub_str: str) -> int:
     """This function should take a main string and a substring as inputs and return the number of occurrences of the
      substring within the main string. It should not be case-sensitive and may overlap."""
     # your code here
-    # return main_str.lower().count(sub_str.lower())
+    # return main_str.lower().count(sub_str.lower()) """ не верное на последних тестах"""
     results = 0
     sub_len = len(sub_str)
     for i in range(len(main_str)):
