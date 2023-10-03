@@ -4,7 +4,7 @@ import math
 def factorial(n: int) -> int:
     """This function should take a non-negative integer as an input and return the factorial of that number.
     The factorial of a non-negative integer n is the product of all positive integers less than or equal to n ."""
-    # your code here
+    # return n*factorial(n-1) if n > 1 else 1
     return math.factorial(n)
 
 
