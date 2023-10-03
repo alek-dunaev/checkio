@@ -12,7 +12,6 @@ def longest_substr(s: str) -> int:
     return res
 
 
-
 print("Example:")
 print(longest_substr("abcabcbb"))
 

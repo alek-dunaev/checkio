@@ -83,6 +83,14 @@ Output: String (str).
 12.3 Given a string, find the length of the longest substring without repeating characters.
 Input: String (str).
 Output: Integer (int).
+12.4 This function should take a non-negative integer as an input and return the factorial of that number. 
+The factorial of a non-negative integer n is the product of all positive integers less than or equal to n . 
+Input: Integer (int).
+Output: Integer (int).
+12.5 This function should take a main string and a substring as inputs and return the number of occurrences of the 
+substring within the main string. It should not be case-sensitive and may overlap.
+Input: Two strings (str).
+Output: Integer (int).
 13. You are given a string and two markers (the initial one and final). You have to find a substring enclosed between these two markers. But there are a few important conditions.
 The initial and final markers are always different.
 The initial and final markers are always 1 char size.
