@@ -1,4 +1,8 @@
 def goes_after(word: str, first: str, second: str) -> bool:
+    """In a given string you need to check if one symbol goes right after another. If so - return True,
+    otherwise - False.
+    If one of the symbols is not in the given word - your function should return False. If two seeking symbols are the
+    same - your function should return False."""
     return word.find(first) + 1 == word.find(second)
 
     # try:

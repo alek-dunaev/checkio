@@ -1,14 +1,17 @@
+import re
 def count_occurrences(main_str: str, sub_str: str) -> int:
     """This function should take a main string and a substring as inputs and return the number of occurrences of the
      substring within the main string. It should not be case-sensitive and may overlap."""
-    # your code here
-    # return main_str.lower().count(sub_str.lower()) """ не верное на последних тестах"""
-    results = 0
-    sub_len = len(sub_str)
-    for i in range(len(main_str)):
-        if main_str[i:i + sub_len].lower() == sub_str.lower():
-            results += 1
-    return results
+    matches = re.findall(fr'(?={sub_str})', main_str, flags=re.IGNORECASE)
+    return len(matches)
+    #   return main_str.lower().count(sub_str.lower()) """ не верное на последних тестах"""
+    #   return len(re.findall('(?=' + sub_str.lower() + ')', main_str.lower()))
+    # results = 0
+    # sub_len = len(sub_str)
+    # for i in range(len(main_str)):
+    #     if main_str[i:i + sub_len].lower() == sub_str.lower():
+    #         results += 1
+    # return results
 
 
 print("Example:")

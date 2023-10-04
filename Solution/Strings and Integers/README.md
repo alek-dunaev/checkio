@@ -108,6 +108,9 @@ Output: An integer 0-9 (int).
 The text consists of numbers, spaces and letters from the English alphabet.
 Input: A string (str).
 Output: An integer (int).
+16.1 This function should take an list of strings and determine the longest common prefix among all the strings. If there is no common prefix, it should return an empty string.
+Input: List of strings (str).
+Output: String (str).
 17. Let's teach the Robots to distinguish words and numbers.
 You are given a string with words and numbers separated by whitespaces (one space). The words contains only letters. You should check if the string contains three words in succession. For example, the string "start 5 one two three 7 end" contains three words in succession.
 Input: A string (str) with words.
