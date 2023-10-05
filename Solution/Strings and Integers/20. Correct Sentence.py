@@ -6,18 +6,17 @@ def correct_sentence(text: str) -> str:
     # your code here
     # text.capitalize() +
     if text.endswith("."):
-        return text.capitalize()
+        return (text[0:text.find(" ")]).title() + text[text.find(" "):]
     else:
-        return (text.capitalize()).insert('.')
+        return (text[0:text.find(" ")]).title() + text[text.find(" "):] + "."
 
 
 print("Example:")
 print(correct_sentence("greetings, friends"))
 
 # These "asserts" are used for self-checking
-# assert correct_sentence("greetings, friends") == "Greetings, friends."
-# assert correct_sentence("Greetings, friends") == "Greetings, friends."
-# assert correct_sentence("Greetings, friends.") == "Greetings, friends."
-# assert correct_sentence("greetings, friends.") == "Greetings, friends."
-#
-# print("The mission is done! Click 'Check Solution' to earn rewards!")
+assert correct_sentence("greetings, friends") == "Greetings, friends."
+assert correct_sentence("Greetings, friends") == "Greetings, friends."
+assert correct_sentence("Greetings, friends.") == "Greetings, friends."
+assert correct_sentence("greetings, friends.") == "Greetings, friends."
+print("The mission is done! Click 'Check Solution' to earn rewards!")
