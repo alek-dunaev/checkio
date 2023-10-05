@@ -1,8 +1,28 @@
-def convert_date(date: str) -> str:
+from datetime import date
+import calendar
+
+
+def convert_date(date_for_convert: str) -> str:
     """This function should take a date string in the format dd/mm/yyyy and convert it to the format yyyy-mm-dd.
-     If the input is not in the correct format, the function should return an error message "Error: Invalid date."""
-    # your code here
-    return ""
+     If the input is not in the correct format, the function should return an error message "Error: Invalid date.
+     the input should match the pattern: dd/mm/yyyy, where 01 ≤ dd ≤ 31, 01 ≤ mm ≤ 12, and 1900 ≤ yyyy ≤ 2100."""
+    day = int(date_for_convert[:2])
+    month = int(date_for_convert[3:5])
+    year = int(date_for_convert[6:10])
+    if len(date_for_convert) != 10:
+        return "Error: Invalid date."
+    if 1900 <= year <= 2100:
+        if 1 <= month <= 12:
+            _, last_day = calendar.monthrange(year, month)
+            if 1 <= day <= last_day:
+                return date(year, month, day).isoformat()
+            else:
+                return "Error: Invalid date."
+        else:
+            return "Error: Invalid date."
+    else:
+        return "Error: Invalid date."
+
 
 
 print("Example:")
