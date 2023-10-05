@@ -4,7 +4,8 @@ def correct_sentence(text: str) -> str:
     Pay attention to the fact that not all of the fixes are necessary. If a sentence already ends with a period (dot),
     then adding another one will be a mistake."""
     # your code here
-    # text.capitalize() +
+    # text[0].upper() + text[1:] + ("." if text[-1] != "." else "")
+    # correct_sentence = lambda t: t[0].upper() + t[1:] + '.'*(t[-1] != '.')
     if text.endswith("."):
         return (text[0:text.find(" ")]).title() + text[text.find(" "):]
     else:
