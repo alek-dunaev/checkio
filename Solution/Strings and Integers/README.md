@@ -131,3 +131,7 @@ Output: A logic value (bool).
 Pay attention to the fact that not all of the fixes are necessary. If a sentence already ends with a period (dot), then adding another one will be a mistake.
 Input: A string (str).
 Output: A string (str).
+21. This function should take a date string in the format dd/mm/yyyy and convert it to the format yyyy-mm-dd.
+If the input is not in the correct format, the function should return an error message "Error: Invalid date.".
+Input: String (str).
+Output: String (str).
