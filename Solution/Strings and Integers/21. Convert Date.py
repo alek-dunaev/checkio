@@ -1,4 +1,6 @@
 def convert_date(date: str) -> str:
+    """This function should take a date string in the format dd/mm/yyyy and convert it to the format yyyy-mm-dd.
+     If the input is not in the correct format, the function should return an error message "Error: Invalid date."""
     # your code here
     return ""
 
